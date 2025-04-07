@@ -24,13 +24,17 @@
 
 ---
 
+
+
 ## 🧠 Tech Stack Highlights:
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,java,python,php,c,cpp,cs" />
-  <img src="https://skillicons.dev/icons?i=react,nodejs,nextjs,express,mongodb,mysql,postgres,sqlite,spring" />
-  <img src="https://skillicons.dev/icons?i=django,flask,bootstrap,tailwind,figma,vercel,aws,gcp,firebase" />
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,ps,canva,notion,linux" />
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,python,php,c,cpp,cs" /><br>
+  <img src="https://skillicons.dev/icons?i=react,nodejs,nextjs,express,mongodb,mysql,postgres,sqlite,spring" /><br>
+  <img src="https://skillicons.dev/icons?i=django,flask,bootstrap,tailwind,figma,vercel,aws,gcp,firebase" /><br>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,ps,notion,linux" />
 </p>
+
+
 
 ---
 
