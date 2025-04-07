@@ -15,3 +15,6 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 https://raw.githubusercontent.com/sensaishammi/sensaishammi/main/dist/github-contribution-grid-snake.svg
+
+![Snake animation](https://raw.githubusercontent.com/sensaishammi/sensaishammi/main/dist/github-contribution-grid-snake.svg)
+
