@@ -1,8 +1,12 @@
 
 <!-- README.md for sensaishammi -->
 
-<h1 align="center">Welcome to <span style="color:#0fb7ff">sensaishammi</span>'s Repository! 🚀</h1>
-<p align="center"><b>A Passionate Learner | MCA Student | Full Stack Developer ⚡</b></p>
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=28&pause=1000&color=0FB7FF&center=true&vCenter=true&width=1000&lines=Welcome+to+My+Dev+Universe+🚀;MCA+Student+%7C+Full+Stack+Wizard+%7C+Lifelong+Learner" />
+</p>
+
+
+
 
 ---
 
