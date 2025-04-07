@@ -1,29 +1,30 @@
 name: Generate Snake
 
 on:
-  schedule:
-    - cron: "0 0 * * *" # every day at midnight
   workflow_dispatch:
+  schedule:
+    - cron: "0 0 * * *"
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout repository
         uses: actions/checkout@v3
 
       - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: sensaishammi
-          outputs: |
-            dist/github-contribution-grid-snake.svg
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Push to GitHub
-        uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: main
-          build_dir: dist
+      - name: Commit and push to the same repo
+        run: |
+          git config user.name "GitHub Action"
+          git config user.email "action@github.com"
+          git add dist/
+          git commit -m "🐍 Generate snake animation"
+          git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
